@@ -1,0 +1,361 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+h1{
+    
+}
+header {
+    background-color:red;
+    
+   
+    
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the fixed Buy Now button */
+
+.buy-button-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.buy-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #FF9900; /* Amazon's orange color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px wheat;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buy-button:hover {
+    background-color: #FF8C00; /* Darker orange on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px;
+    text-align: right;
+}
+
+.signup-link, .signin-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.signin-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    right: 10px; /* Adjust right distance */
+    transform: translateY(-50%);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px white;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.signin-form.show {
+    display: block;
+}
+
+.signin-form h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.signin-form form {
+    text-align: center;
+}
+
+.signin-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.signin-form input[type="email"],
+.signin-form input[type="password"],
+.signin-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.signin-form input[type="email"] {
+    color: black; /* Set email input text color to black */
+}
+
+.signin-form input[type="submit"] {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signin-form input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+main {
+    text-align: center;
+}
+
+.buy-now-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: 1px solid #357a38;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.buy-now-button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+}
+
+.phone-numbers {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.8rem;
+    color: #666;
+}
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+main {
+    text-align: center;
+}
+
+.buy-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #4CAF50, #388E3C);
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 1px solid #357a38;
+    border-radius: 5px;
+    box-shadow: 0 4px #357a38;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.buy-now-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px #357a38;
+}
+
+.phone-numbers {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.8rem;
+    color: #e91a1a;
+}
+p{
+    color: red;
+}
+footer{
+    color: lightblue;
+}
+rel{
+    color: #ccc;
+}
+h1{
+    color: #f9f9f9;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.marquee-container {
+    size: 5555px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+marquee {
+    font-size: 22px;
+    padding: 5px 20px;
+    margin: 0;
+}
+H1{
+    size: 40000x;;
+}
